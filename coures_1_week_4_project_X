@@ -48,4 +48,3 @@ Then the posterior distribution  p(θ∣15 heads of 20 coin flips)
   represents a rather strong belief:  θ≈62.5
  . Therefore while hyperparameters are not directly of interest, they can strongly influence the end result of your inference procedure.
 
-v
