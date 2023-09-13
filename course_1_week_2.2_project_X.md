@@ -24,9 +24,7 @@ In Machine Learning or Deep Learning, we often train our models on large dataset
 Let us take the example of the Logistic Regression ML algorithm,
 
 We have the below equation,
-
- ![Alt text](image-16.png)
-
+![image](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144168166/d0f1d27b-82bc-427f-8aae-7195a24be758)
 The first step in calculating the value of Z is to multiply the two vectors W and X. We can multiply the two vectors in two ways vectorized and non-vectorized.
 
 # Implementing Vectorization in Python with numpy library
@@ -97,4 +95,5 @@ A technique in python which makes our code easy for implementation is called bro
 The term broadcasting refers to how numpy treats arrays with different Dimension during arithmetic operations which lead to certain constraints, the smaller array is broadcast across the larger array so that they have compatible shapes. 
 Broadcasting provides a means of vectorizing array operations so that looping occurs. It does this without making needless copies of data and which leads to efficient algorithm implementations. There are cases where broadcasting is a bad idea because it leads to inefficient use of memory that slow down the computation.
 We use word array and matrix as to convey the same meaning here.
-![Alt text](image-17.png)
+![image](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144168166/3a6a0ffa-6a21-4e7d-80e6-4cbb13a38d74)
+
