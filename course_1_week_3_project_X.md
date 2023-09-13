@@ -9,13 +9,15 @@ There are three steps to perform in any neural network:
 1.We take the input variables and the above linear combination equation of  Z = W0 + W1X1 + W2X2 + …+ WnXn to compute the output or the predicted Y values, called the Ypred.
 2.Calculate the loss or the error term. The error term is the deviation of the actual values from the predicted values.
 3.Minimize the loss function or the error term.
-![Alt text](image-18.png)
+![image](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144168166/703a15dd-03ff-43ef-973d-bf2e37291336)
+
 
 
 
 # How to Calculate the Output for a Neural Network using vectorized approach?
 Let's consider the example given below-
-![Alt text](image-19.png)
+![image](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144168166/e0b5eebe-efd2-4bfa-80fa-cb80ffed2a46)
+
 Firstly, we will understand how to calculate the output for a neural network and then will see the approaches that can help to converge to the optimum solution of the minimum error term.
 
 The output layer nodes are dependent on their immediately preceding hidden layer L3, which is coming from the hidden layer 2 and those nodes are further derived from the input variables. These middle hidden layers create the features that the network automatically creates and we don’t have to explicitly derive those features. In this manner, the features are generated in Deep Learning models and this is what makes them stand out from Machine Learning.
@@ -81,7 +83,8 @@ We are so persistent about minimizing the error because the error tells how much
 This adjustment of weights is also called the correction of the weights. There are two methods: Forward Propagation and Backward Propagation to correct the betas or the weights to reach the convergence. We will go into the depth of each of these techniques; however, before that lets’ close the loop of what the neural net does after estimating the betas.
 
 # Activation functions
-![Alt text](image-20.png)
+![image](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144168166/08d5d412-158e-4800-a12c-0eebe5533f0e)
+
 Like above examples we use many other Activation function to implement vectorization however our preference of use of a function mainly depends upon the type of data its dealing with and its nature.
 We use many different activation functions depending upon the data set and also the algorithm to some extent the data set primarily depends upon what are model is performing and what is its function generally we don't use tanh function  this is because of the fact that its values ranges from -1 to 1 and in many cases were required output values that is output to be from 0 and 1. This problem forces us to use sigmoid function which gives output from 0 to 1. However in certain cases even sigmoid function is not used because for higher values of x the slope and tends to zero due to this negligible value of slope it difficult to back propagate and chances of error also increases the speed with which are model is trained is decreased considerably. so instead of using sigmoid nowadays we use relu and leeky relu functions  as shown above in the figure. Many of the algorithm are based on these functions.
 
@@ -94,7 +97,8 @@ Derivatives for Activation function can be easily calculated using our basic cal
 Gradient Descent is known as one of the most commonly used optimization algorithms to train machine learning models by means of minimizing errors between actual and expected results. Further, gradient descent is also used to train Neural Networks.
 In mathematical terminology, Optimization algorithm refers to the task of minimizing/maximizing an objective function f(x) parameterized by x. Similarly, in machine learning, optimization is the task of minimizing the cost function parameterized by the model's parameters. The main objective of gradient descent is to minimize the convex function using iteration of parameter updates. Once these machine learning models are optimized, these models can be used as powerful tools for Artificial Intelligence and various computer science applications.
 The main objective of using a gradient descent algorithm is to minimize the cost function using iteration.
-![Alt text](image-21.png)
+![image](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144168166/1fbeb8e3-2727-4122-a005-aef3818a1473)
+
 
 # Back Propogation
 You already know that we randomly initialize the weights and biases in the network and use that to make predictions, just like how we randomly initialized x in the previous section. we take these predictions made by our neural network and use some sort of metric to measure the deviation between the actual target and our model’s output ( This is nothing but the loss function ).
@@ -105,9 +109,10 @@ Objective: To find the derivatives for the loss or error with respect to every s
 
 Before we begin, One special feature of the sigmoid activation function is that its derivative is very easy to calculate.
 derivative of sigmoid(x) = sigmoid(x) * (1 — sigmoid(x)).
-![Alt text](image-22.png)
+![image](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144168166/8e2f219c-68c7-4f8b-8ee4-e7eca917ae9c)
 
-![Alt text](image-23.png)
+
+![image](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144168166/03b5c5f7-6aeb-4ea8-9aa9-20525d366abe)
 
 # Random Initialization
 Random Initialization for neural networks aids in the symmetry-breaking process and improves accuracy. The weights are randomly initialized in this manner, very close to zero. As a result, symmetry is broken, and each neuron no longer performs the same computation. Usually it's as small as 0.01
