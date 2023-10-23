@@ -165,8 +165,7 @@ Be able to explain the major trends driving the rise of deep learning, and under
   	Y(i)				Expected output of i
   ```
 
-- So we have:
-  ![](https://raw.githubusercontent.com/ashishpatel26/DeepLearning.ai-Summary/master/1-%20Neural%20Networks%20and%20Deep%20Learning/Images//09.png)
+
 
 - Then from right to left we will calculate derivations compared to the result:
 
