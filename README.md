@@ -19,7 +19,6 @@ The goal of this project is to gain a deeper understanding of how the Transforme
 By implementing the Transformer from scratch, we can get a hands-on understanding of the key components of the architecture, including multi-head self-attention, feedforward layers, and layer normalization.
 
 
-```
 
 ## Architecture
 The Transformer architecture consists of a set of encoders and a decoders, In the paper they used 6 of each.
