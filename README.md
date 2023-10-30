@@ -19,14 +19,7 @@ The goal of this project is to gain a deeper understanding of how the Transforme
 
 By implementing the Transformer from scratch, we can get a hands-on understanding of the key components of the architecture, including multi-head self-attention, feedforward layers, and layer normalization.
 
-## Requirements
 
-This implementation requires Python 3.6 or later.
-
-You can install the requirements using:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ## Architecture
