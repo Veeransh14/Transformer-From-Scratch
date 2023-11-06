@@ -92,7 +92,7 @@ This is our Transformer Architecture with Encoder on left and Decoder on right.
 
 
 # Contributers
-- @kshitijdshah99
+- Kshitij Shah
 - Mayank Palan
 - Veeransh Shah
 
