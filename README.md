@@ -25,6 +25,7 @@ By implementing the Transformer from scratch, we can get a hands-on understandin
 - [Google Collab](https://colab.research.google.com/)
 
 # File Structure
+'''
 
 ├── Assignments
 
@@ -102,6 +103,8 @@ By implementing the Transformer from scratch, we can get a hands-on understandin
     ├── utils.py
 
 ├── README.md
+
+'''
 
 # Getting Started
 ## Projects we worked on
