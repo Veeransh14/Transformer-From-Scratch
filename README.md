@@ -25,13 +25,17 @@ By implementing the Transformer from scratch, we can get a hands-on understandin
 - [Google Collab](https://colab.research.google.com/)
 
 # File Structure
+
 ├── Assignments
+
     ├── Kshitij
     
     ├── Mayank
     
     ├── Veeransh
+    
 ├── Mini Projects
+
     ├── Image_Classification.ipynb
 
     ├── Logistic Spam Project.ipynb
@@ -41,10 +45,13 @@ By implementing the Transformer from scratch, we can get a hands-on understandin
     ├── README.md
 
 ├── RNN Implementation
+
     ├── .rnn implementation.ipynb
 
     ├── README.md
+    
 ├── Transformers
+
     ├── BaseLayers
         ├── dropout.py
 
@@ -59,10 +66,24 @@ By implementing the Transformer from scratch, we can get a hands-on understandin
         ├── softmax.py
 
     ├── CombinedLayers
+    
+        ├── multi_head_attention.py
+
+        ├── position_wise_feed_forward.py
+
+        ├── positional_encoding.py
 
     ├── Decoder
+    
+        ├── decoder.py
+
+        ├── decoder_block.py
 
     ├── Encoder
+    
+        ├── encoder.py
+
+        ├── encoder_block.py
 
     ├── __pycache__
 
