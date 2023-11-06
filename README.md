@@ -27,8 +27,8 @@ By implementing the Transformer from scratch, we can get a hands-on understandin
 # File Structure
 
 
-
-# Projects we worked on
+# Getting Started
+## Projects we worked on
 - Image Classification
 - Spam Detection using Logistic Regression 
 - MNIST digit classifier
@@ -36,22 +36,22 @@ By implementing the Transformer from scratch, we can get a hands-on understandin
 - Transformer
 - Building Transformer Package Using PyPi
 
-## Image Classification
+### Image Classification
 - This project deals with Binary Classification of Objects and would produce result 1(True) or 0(False).
 - In our project we had to classify between cat and non-cat images.
 - We used tensorflow and keras predefined libraries to achieve our goal.
 
-## Spam Detection using Logistic Regression 
+###  Spam Detection using Logistic Regression 
 - The idea of this post is to understand step by step working of the spam filter model. Also, next time when you see a “You have won a lottery” SMS rather than 
   ignoring it, you might prefer to report it as a spam.
 - Here the logistic regression model is implemented from scratch, including functions for initialization, propagation, optimization, and prediction.
 
-## MNIST digit Classifier
+### MNIST digit Classifier
 - MNIST digit classification is a fundamental problem in machine learning and computer vision. The trained neural network can accurately identify digits (0 to 9) 
   from images of handwritten characters.
 - The MNIST dataset is loaded using Keras, ReLU activation functions are used for hidden layers, and softmax activation is used for the output layer.
 
-## RNNs
+### RNNs
 These are simple models which were previously used as against Transformers and GPT models. These models are not quite efficient and tend to get saturated after certain number of epochs. Training them is not a peice of cake. This is beacuse of Exploding and Vanishing gradients problem in which the loss produced by the loss function gets saturated to a certain value as a result of which training and updatation of model becomes slow and monotonous.
 Here is an example in which we have trained a RNN model but it's loss has got saturated.
 ![ScreenshotRNNs](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144168166/bca4a87d-68cb-4432-bf53-70f5c2159a16)
