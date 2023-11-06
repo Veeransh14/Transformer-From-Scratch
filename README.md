@@ -25,86 +25,45 @@ By implementing the Transformer from scratch, we can get a hands-on understandin
 - [Google Collab](https://colab.research.google.com/)
 
 # File Structure
-'''
 
 ├── Assignments
-
     ├── Kshitij
-    
     ├── Mayank
-    
-    ├── Veeransh
-    
+    ├── Veeransh   
 ├── Mini Projects
-
     ├── Image_Classification.ipynb
-
     ├── Logistic Spam Project.ipynb
-
     ├── MNISTfinal.ipynb
-
     ├── README.md
-
 ├── RNN Implementation
-
     ├── .rnn implementation.ipynb
-
-    ├── README.md
-    
+    ├── README.md  
 ├── Transformers
-
     ├── BaseLayers
         ├── dropout.py
-
         ├── embedding.py
-
         ├── layer_normalization.py
-
         ├── linear.py
-
         ├── relu.py
-
         ├── softmax.py
-
-    ├── CombinedLayers
-    
+    ├── CombinedLayers   
         ├── multi_head_attention.py
-
         ├── position_wise_feed_forward.py
-
         ├── positional_encoding.py
-
-    ├── Decoder
-    
+    ├── Decoder    
         ├── decoder.py
-
         ├── decoder_block.py
-
-    ├── Encoder
-    
+    ├── Encoder  
         ├── encoder.py
-
         ├── encoder_block.py
-
-    ├── __pycache__
-
     ├── Dataloader.py
-
     ├── PadSequences.py
-
     ├── Tokenizer.py
-
     ├── loss.py
-
     ├── optimizer.py
-
     ├── transformer.py
-
     ├── utils.py
-
 ├── README.md
-
-'''
 
 # Getting Started
 ## Projects we worked on
