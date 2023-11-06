@@ -16,9 +16,17 @@ The goal of this project is to gain a deeper understanding of how the Transforme
 By implementing the Transformer from scratch, we can get a hands-on understanding of the key components of the architecture, including multi-head self-attention, feedforward layers, and layer normalization.
 
 # Projects we worked on
-- MNIST classifier
+- Image Classification
+- Logistic Spam Project
+- MNIST digit classifier
 - RNNs
 - Transformer
+- Building Transformer Package Using PyPi
+
+## Image Classification
+
+## Logistic Spam Project
+
 
 ## MNIST
 
@@ -32,7 +40,7 @@ This is our RNN model- in which we can clearly see how it's giving arbitrary and
 
 https://github.com/Veeransh14/Transformer-From-Scratch/blob/main/.rnn%20implementation.ipynb
 
-## Transformer Architecture
+# Transformer Architecture
 The Transformer architecture consists of a set of encoders and a decoders, In the paper they used 6 of each.
 
 The encoder processes the input sequence of tokens, while the decoder generates the output sequence.
@@ -70,13 +78,21 @@ This is our Transformer Architecture with Encoder on left and Decoder on right.
 
 
 
+## Building Transformer Package Using PyPi
+- Added one special feature in which we can directly import our Transformer Architecture just like we import predefined libraries in python. This has been achieved using PyPi 
+  which is Python Package Index.
+
+
 # Future Works
 - We are planning to work on real time transformer models like Llama and many others too.
+- Generative Pre-Trained Transformer models that is GPT is our next topic of discussion and research.
+- Planning to modify, optimize and fine tune our model to give more accurate predictions. We would be achieveing this by comparing our model with real time world Transformer 
+  Architecture Models.
 
 
 
 # Contributers
-- Kshitij Shah
+- @kshitijdshah99
 - Mayank Palan
 - Veeransh Shah
 
