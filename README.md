@@ -28,7 +28,7 @@ By implementing the Transformer from scratch, we can get a hands-on understandin
 
 
 
-    ├── Assignments                   # Coursera Assignments and Notes
+    ├── Assignments                   
        ├── Kshitij
        ├── Mayank
        ├── Veeransh   
