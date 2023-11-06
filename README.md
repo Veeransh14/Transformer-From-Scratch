@@ -25,40 +25,67 @@ By implementing the Transformer from scratch, we can get a hands-on understandin
 - [Google Collab](https://colab.research.google.com/)
 
 # File Structure
+├── Assignments
+    ├── Kshitij
+    
+    ├── Mayank
+    
+    ├── Veeransh
+├── Mini Projects
+    ├── Image_Classification.ipynb
 
+    ├── Logistic Spam Project.ipynb
+
+    ├── MNISTfinal.ipynb
+
+    ├── README.md
+
+├── RNN Implementation
+    ├── .rnn implementation.ipynb
+
+    ├── README.md
+├── Transformers
+    ├── BaseLayers
+        ├── dropout.py
+
+        ├── embedding.py
+
+        ├── layer_normalization.py
+
+        ├── linear.py
+
+        ├── relu.py
+
+        ├── softmax.py
+
+    ├── CombinedLayers
+
+    ├── Decoder
+
+    ├── Encoder
+
+    ├── __pycache__
+
+    ├── Dataloader.py
+
+    ├── PadSequences.py
+
+    ├── Tokenizer.py
+
+    ├── loss.py
+
+    ├── optimizer.py
+
+    ├── transformer.py
+
+    ├── utils.py
+
+├── README.md
 
 # Getting Started
 ## Projects we worked on
-- Image Classification
-- Spam Detection using Logistic Regression 
-- MNIST digit classifier
-- RNNs
 - Transformer
 - Building Transformer Package Using PyPi
-
-### Image Classification
-- This project deals with Binary Classification of Objects and would produce result 1(True) or 0(False).
-- In our project we had to classify between cat and non-cat images.
-- We used tensorflow and keras predefined libraries to achieve our goal.
-
-###  Spam Detection using Logistic Regression 
-- The idea of this post is to understand step by step working of the spam filter model. Also, next time when you see a “You have won a lottery” SMS rather than 
-  ignoring it, you might prefer to report it as a spam.
-- Here the logistic regression model is implemented from scratch, including functions for initialization, propagation, optimization, and prediction.
-
-### MNIST digit Classifier
-- MNIST digit classification is a fundamental problem in machine learning and computer vision. The trained neural network can accurately identify digits (0 to 9) 
-  from images of handwritten characters.
-- The MNIST dataset is loaded using Keras, ReLU activation functions are used for hidden layers, and softmax activation is used for the output layer.
-
-### RNNs
-These are simple models which were previously used as against Transformers and GPT models. These models are not quite efficient and tend to get saturated after certain number of epochs. Training them is not a peice of cake. This is beacuse of Exploding and Vanishing gradients problem in which the loss produced by the loss function gets saturated to a certain value as a result of which training and updatation of model becomes slow and monotonous.
-Here is an example in which we have trained a RNN model but it's loss has got saturated.
-![ScreenshotRNNs](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144168166/bca4a87d-68cb-4432-bf53-70f5c2159a16)
-
-This is our RNN model- in which we can clearly see how it's giving arbitrary and trash results.
-
-https://github.com/Veeransh14/Transformer-From-Scratch/blob/main/.rnn%20implementation.ipynb
 
 # Transformer Architecture
 The Transformer architecture consists of a set of encoders and a decoders, In the paper they used 6 of each.
