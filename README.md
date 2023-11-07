@@ -14,7 +14,9 @@ The goal of this project is to gain a deeper understanding of how the Transforme
 
 ## Description
 NLP can be performed using many Architectures and model but we have started our journey with Neural Networks as they form the basis of each and every NLP model. Here we have implemented RNNs and LSTMs models and considering it's drawbacks we have shifted towards more advanced models like Transformer.
-By implementing the Transformer from scratch, we can get a hands-on understanding of the key components of the architecture, including multi-head self-attention, feedforward layers, and layer normalization. We would be feeding various datasets to our model such that it generates some text based on that dataset on which it has been trained.
+Transformer models are commonly made using Pytorch(torch) and Tensorflow libraries but here we have implemented it from Scratch using Numpy.
+By implementing the Transformer from Scratch, we can get a hands-on understanding of the key components of the architecture, including multi-head self-attention, feedforward layers, and layer normalization. We have made it easy for the user by allowing him to load the dataset of his choice therby training our model on his dataset.
+Our Transformer model package can be easily imported like other predefined libraries using PyPi.
 
 ## Tech Stack
 - [Keras](https://keras.io/)
