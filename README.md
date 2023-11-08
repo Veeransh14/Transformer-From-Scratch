@@ -109,7 +109,7 @@ The outputs of the self-attention layer are passed through a feedforward neural 
 ### Multihead Attention
 We generate three vectors query,key and values by linear transformation of our input vector x
 query represents the current position
-It's dot product with key divided by d_h gives us scaled dot product attention which helps the transformer to get context of the seqeunce 
+It's dot product with key divided by d_h gives us scaled dot product attention which helps the transformer to get context of the seqeunce
 
 ### Decoder Layers
 
