@@ -1,0 +1,16 @@
+licence.txt
+setup.py
+Transformer_from_Scratch.egg-info/PKG-INFO
+Transformer_from_Scratch.egg-info/SOURCES.txt
+Transformer_from_Scratch.egg-info/dependency_links.txt
+Transformer_from_Scratch.egg-info/requires.txt
+Transformer_from_Scratch.egg-info/setup.cfg
+Transformer_from_Scratch.egg-info/top_level.txt
+package/BaseLayer.py
+package/CombinedLayer.py
+package/Decoder.py
+package/Encoder.py
+package/Transformer.py
+package/__init__.py
+package/layers.py
+package/utils.py

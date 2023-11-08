@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: lib
+Version: 4.0.0
+Summary: Autocode standard library Python bindings
+Home-page: https://github.com/acode/lib-python
+Author: Keith Horwood
+Author-email: keithwhor@gmail.com
+License: MIT
+Keywords: autocode,stdlib,microservice,serverless,faas,lib
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
