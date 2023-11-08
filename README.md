@@ -93,7 +93,7 @@ We train the embeddings here while training the model
 
 ### Positional Encoding
 
-Since the Transformer does not use recurrent or LSTM layers, it needs a way to incorporate positional information about the tokens. This is done using a positional encoding layer, which adds a set of sinusoidal (sin and cos) functions to the input embeddings. The frequencies and phases of these functions encode the position of each token in the input sequence.
+Since the Transformer does not use recurrent or LSTM layers, it needs a way to incorporate positional information about the tokens. This is done using a positional encoding layer, which adds a set of sinusoidal (sin and cos) functions to the input embeddings. The frequencies and phases of these functions encode the position of each token in the input sequence.This help the transformer to maintain the order in the positioning of the tokens.
 
 ### Encoder Layers
 
