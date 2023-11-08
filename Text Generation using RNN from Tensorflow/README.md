@@ -13,5 +13,12 @@ Model trained for 4 hours on MacM1 gpu
 
 
 
+![Image 09-11-23 at 1 25 AM](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144169682/7be7c831-6071-4b95-bf82-e64e3f96ea30)
+
+
+The results as can be seen are not very promising 
+
+
+
 
 
