@@ -77,7 +77,7 @@ Our Transformer model package can be easily imported like other predefined libra
 - Building Transformer Package Using PyPi
 
 # Project Results
-![Transformer results](https://github.com/Veeransh14/Transformer-From-Scratch/blob/main/Transformer%20results.zip)
+[Transformer results](https://github.com/Veeransh14/Transformer-From-Scratch/blob/main/Transformer%20results.zip)
 
 # Transformer Architecture
 The Transformer architecture consists of a set of encoders and a decoders, In the paper they used 6 of each.
