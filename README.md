@@ -86,8 +86,10 @@ Here's a brief overview of each component:
 ### Input Embedding
 
 The input sequence of tokens is first embedded into a continuous vector space using an embedding layer. 
-
-This layer maps each token to a fixed-length vector that captures its semantic meaning. The embedding layer is trained jointly with the rest of the model.
+This serves as practically the first step in both encoder and decoder layers.
+The input generally is in form of tokens or one hot encoding is mapped to an embedding with dimension of model.
+The embeddings can be pretrained like Glove or Word2Vec or one can train it while training the model
+We train the embeddings here while training the model
 
 ### Positional Encoding
 
