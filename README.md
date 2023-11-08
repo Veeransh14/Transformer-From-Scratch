@@ -101,6 +101,11 @@ The encoder consists of multiple identical layers, each of which applies a set o
 
 The outputs of the self-attention layer are passed through a feedforward neural network, and the resulting representations are combined with the original input sequence using residual connections and layer normalization.
 
+### Multihead Attention
+We generate three vectors query,key and values by linear transformation of our input vector x
+query represents the current position
+It's dot product with key divided by d_h gives us scaled dot product attention which helps the transformer to get context of the seqeunce 
+
 ### Decoder Layers
 
 The decoder also consists of multiple identical layers, each of which applies a similar set of operations to the output sequence. In addition to the self-attention and feedforward layers, each decoder layer also includes a multi-head attention layer that attends to the encoder output. This allows the decoder to align the input and output sequences and generate more accurate translations.
@@ -129,7 +134,7 @@ This is our Transformer Architecture with Encoder on left and Decoder on right.
 
 
 
-# Contributers
+# Contributors
 - [Kshitij Shah](https://github.com/kshitijdshah99)
 - [Mayank Palan](https://github.com/MayankPalan2004)
 - [Veeransh Shah](https://github.com/Veeransh14)
