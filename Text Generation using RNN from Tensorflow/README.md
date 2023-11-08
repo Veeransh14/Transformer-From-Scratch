@@ -9,6 +9,9 @@ This implies that the model was learning but not learning things we want it but 
 
 
   
-This is our RNN model- in which we can clearly see it is not giving very good results
+Model trained for 4 hours on MacM1 gpu 
+
+
+
 
 
