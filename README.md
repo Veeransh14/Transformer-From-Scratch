@@ -31,7 +31,7 @@ Our Transformer model package can be easily imported like other predefined libra
 
 
 
-    ├── Assignments                   
+    ├── Courses                   
        ├── Kshitij
        ├── Mayank
        ├── Veeransh   
@@ -78,7 +78,7 @@ Our Transformer model package can be easily imported like other predefined libra
 
 # Project Results
 
-[Transformer Results](https://github.com/Veeransh14/Transformer-From-Scratch/blob/main/Transformer%20Results.gif)
+[Transformer Project Results output](https://github.com/Veeransh14/Transformer-From-Scratch/blob/main/Transformer%20Results.gif)
 
 
 # Transformer Architecture
