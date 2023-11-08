@@ -78,7 +78,7 @@ Our Transformer model package can be easily imported like other predefined libra
 
 # Project Results
 
-![Transformer Results](https://github.com/Veeransh14/Transformer-From-Scratch/blob/main/Transformer%20Results.gif)
+[Transformer Results](https://github.com/Veeransh14/Transformer-From-Scratch/blob/main/Transformer%20Results.gif)
 
 
 # Transformer Architecture
