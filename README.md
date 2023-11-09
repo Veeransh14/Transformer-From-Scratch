@@ -167,7 +167,7 @@ This is our Transformer Architecture with Encoder on left and Decoder on right.
 
 # Running the model
 Install the package and then call the fit function of transformer class 
-Provide your preprocessed data to it in the form of a list 
+Provide your preprocessed data to it in the form of a list and provide your hyperparameters to it 
   
 # Acknowledgement and Resources
 - Coursera Andrew NG courses-1,2,5 https://www.coursera.org/specializations/deep-learning
