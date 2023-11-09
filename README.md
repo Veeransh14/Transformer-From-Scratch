@@ -125,7 +125,8 @@ Decoder uses both self attention and cross attention
 Encoder uses self attention only
 In cross attention,
 Query comes from decoder while key and value comes from encoder.It helps the decoder to get context of the input sequence.
-Also we use masked multihead attention firstly so
+Also we use masked multihead attention so that it cannot attend to future position 
+The attention similarity is set to negative infinity and then the softmax maps it to 0
 ### Decoder Layers
 
 The decoder also consists of multiple identical layers, each of which applies a similar set of operations to the output sequence. In addition to the self-attention and feedforward layers, each decoder layer also includes a multi-head attention layer that attends to the encoder output. This allows the decoder to align the input and output sequences and generate more accurate translations.
@@ -164,8 +165,10 @@ This is our Transformer Architecture with Encoder on left and Decoder on right.
 - [Mayank Palan](https://github.com/MayankPalan2004)
 - [Veeransh Shah](https://github.com/Veeransh14)
 
+# Running the model
+Install the package and then call the fit function of transformer class 
+Provide your preprocessed data to it in the form of a list 
   
-
 # Acknowledgement and Resources
 - Coursera Andrew NG courses-1,2,5 https://www.coursera.org/specializations/deep-learning
 - Andrej Karpathy https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ 
