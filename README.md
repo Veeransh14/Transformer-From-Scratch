@@ -78,9 +78,13 @@ Our Transformer model package can be easily imported like other predefined libra
 
 # Project Results
 
-[Transformer Project Final Output ](https://github.com/Veeransh14/Transformer-From-Scratch/blob/main/Transformer%20Results.gif)
+![Image 08-11-23 at 1 44 PM](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144169682/e7728102-4e47-4fab-b539-3816ed0e9c09)
 
-[Click here to view](https://drive.google.com/file/d/1h0Nr33t-aV_ZtNhzm2QvKPUVjfowTuNc/view?usp=drive_link)
+
+![Image 08-11-23 at 1 44 PM (1)](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144169682/a6c87ff0-3a4a-436c-8ef2-1821c42b5d7f)
+
+
+![Image 08-11-23 at 12 34 PM](https://github.com/Veeransh14/Transformer-From-Scratch/assets/144169682/0ca82076-fc88-4046-bd73-98caeca226bb)
 
 
 # Transformer Architecture
