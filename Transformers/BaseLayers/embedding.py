@@ -14,9 +14,13 @@ class Embedding():
         self.register()
 
     def init_weights(self):
+        
+        #initialising the weight matrix (n,d) to random values 
         self.weights = cp.random.normal(0, self.num_embeddings ** -0.5, (self.num_embeddings, self.embedding_dim)).astype(self.data_type)
 
     def zero_grad(self):
+        
+        #initialising the gradient weights to zero and ensuring that their shape is same as the weights 
         self.grad_weights = cp.zeros_like(self.weights)
 
     def register(self):
@@ -26,6 +30,7 @@ class Embedding():
         self.optimizer.register_params(self.weights_registered_name, self.weights)
 
     def forward(self, indices):
+        #Take the weights of only those words which are required as per the indices
         self.indices = indices
         self.output = cp.take(self.weights, self.indices, axis=0)
         return self.output
