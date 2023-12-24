@@ -1,8 +1,5 @@
 from Tokenizer import Tokenizer  
 from PadSequences import PadSequences  
-
-
-
 class DataLoader:
     def __init__(self, max_sequence_length, padding_value):
         self.max_sequence_length = max_sequence_length
