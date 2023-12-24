@@ -6,7 +6,7 @@ from dropout import Dropout
 from layer_normalization import LayerNormalization
 from multi_head_attention import MultiHeadAttention
 from position_wise_feed_forward import PositionWiseFeedForward
-import cupy as cp
+
 class DecoderBlock():
     def __init__(self, optimizer, d_model, d_ff, num_attention_heads, dropout_rate, data_type):
         self.optimizer = optimizer
