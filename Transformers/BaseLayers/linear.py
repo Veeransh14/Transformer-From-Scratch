@@ -1,5 +1,8 @@
 
-import cupy as cp
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
 from utils import _release_memory
 class Linear():
     def __init__(self, in_features, out_features, optimizer, use_bias=True, data_type=cp.float32):
