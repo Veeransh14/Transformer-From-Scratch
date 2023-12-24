@@ -1,5 +1,8 @@
-import cupy as cp
-from numpy import indices
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
+
 class Embedding():
     def __init__(self, num_embeddings, embedding_dim, optimizer, data_type=cp.float32):
         self.layer_name = "embedding"
