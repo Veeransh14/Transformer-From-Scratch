@@ -39,6 +39,7 @@ class Embedding():
         return self.output
     
     def backward(self, grad_y):
+        #Accumulation of the gradients so that rich representations are learnt
         self.grad_weights[self.indices] += grad_y
         return None
 
