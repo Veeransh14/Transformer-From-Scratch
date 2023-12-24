@@ -1,5 +1,7 @@
-import cupy as cp
-
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
 class CrossEntropy():
     def __init__(self, padding_id, vocab_size):
         self.eps = 1e-6
