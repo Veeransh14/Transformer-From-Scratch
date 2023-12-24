@@ -1,5 +1,7 @@
-import cupy as cp
-
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
 class Adam():
     def __init__(self, lr=1e-3, beta1=0.9, beta2=0.98, eps=1e-9, warmup_steps=4000, d_model=512):
         self.lr = lr
