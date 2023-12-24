@@ -1,4 +1,7 @@
-import cupy as cp
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
 
 class Softmax():
     def __init__(self):
