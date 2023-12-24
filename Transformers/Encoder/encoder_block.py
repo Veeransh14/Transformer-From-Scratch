@@ -1,4 +1,7 @@
-import cupy as cp
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
 from dropout import Dropout
 from layer_normalization import LayerNormalization
 from multi_head_attention import MultiHeadAttention
