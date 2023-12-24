@@ -1,4 +1,7 @@
-import cupy as cp
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
 from relu import ReLU
 from linear import Linear
 from dropout import Dropout
