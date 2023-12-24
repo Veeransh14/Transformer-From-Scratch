@@ -1,5 +1,7 @@
-import cupy as cp
-import numpy as np
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
 from encoder import Encoder
 from decoder import Decoder
 from Dataloader import Dataloader
