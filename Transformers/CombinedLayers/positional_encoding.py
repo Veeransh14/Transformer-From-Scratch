@@ -1,5 +1,8 @@
 
-import cupy as cp
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
 class PositionalEncoding():
     def __init__(self, max_len, d_model, data_type=cp.float32):
         self.pe = cp.zeros((max_len, d_model), dtype=data_type)
