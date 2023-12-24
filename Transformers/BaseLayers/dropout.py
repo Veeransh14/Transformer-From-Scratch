@@ -1,4 +1,7 @@
-import cupy as cp
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
 class Dropout():
     #Initialising dropout rate and data type
     def __init__(self, dropout_rate=0.1, data_type=cp.float32):
