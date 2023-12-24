@@ -1,5 +1,7 @@
-import cupy as cp
-
+try:
+    import cupy as cp
+except ImportError:
+    import numpy as cp
 def _release_memory():
     mempool = cp.get_default_memory_pool()
     pinned_mempool = cp.get_default_pinned_memory_pool()
