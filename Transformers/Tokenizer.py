@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 class Tokenizer:
     def __init__(self, oov_token='<OOV>', filters='!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n', lower=True):
@@ -64,16 +59,4 @@ class Tokenizer:
             'filters': self.filters,
             'lower': self.lower
         }
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
 
